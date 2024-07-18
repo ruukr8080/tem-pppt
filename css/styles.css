@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .content-1{
-  display: none;
+  visibility: hidden;
 }
 .content-2{
   display: none;
@@ -4200,7 +4200,6 @@ toggle::after {
   --bs-card-inner-border-radius: calc(0.375rem - 1px);
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
-  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
@@ -8175,7 +8174,6 @@ toggle::after {
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-success {
